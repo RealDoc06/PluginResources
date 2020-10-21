@@ -1,172 +1,318 @@
-OVERVIEW: Panoramica
-PERMISSION: Permesso
-#POSITIVE: Positive
-#NEGATIVE: Negative
-#MIXED: Mixed
-#BUNGEE_PERMISSION: Bungee Permission
-PERMISSION_NODES: Nodi del permesso
-PERMISSIONS: Permessi
-DEFAULT_PERMISSIONS: Permessi di default
-GROUP: Gruppo
-GROUPS: Gruppi
-DEFAULT_GROUP: Gruppo Default
-INHERITED_GROUPS: Eredità dei Gruppi
-PLAYER: Giocatore
-SERVER: Server
-SELECTED: Selezionato
-WORLD: Mondo
-USERS: Utenti
-USER: Utente
-TIME: Tempo
-PREFIX: Prefisso
-SUFFIX: Suffisso
-OPTIONS: Opzioni
-SERVERNAME: Nome del Server
-DONATIONS: Donazioni
-ADVANTAGES: Vantaggi
-RECOMMENDED: Consigliato
-SETTINGS: Impostazioni
-PERMISSIONLOG: Log dei Permessi
-EDITING: Modificando
-ADD: Aggiungi
-TIME_FOR: per
-#NONE: None
-#DURATION: Duration
-#COPY: Copy
-#PASSED: Passed
-#FAILED: Failed
-#SOURCE: Source
-#TIME_TILL_REMOVAL: Time till removal:
-COMMAND_INVALID_ARGS: Argomento non valido
-COMMAND_NOTFOUND: Comando non trovato
-COMMAND_HINT_HELP: Digita **/upc** per avere la lista di tutti i comandi
-COMMAND_HELP_TITLE: Comandi di Ultra Permissions
-COMMAND_HELP_FOOTER: Visita **%1** per più info
-COMMAND_GROUP_NOTFOUND: Non è stato possibile trovare il gruppo **%1**
-COMMAND_PLAYER_NOTFOUND: Non è possibile trovare il giocatore **%1**
-COMMAND_PLAYER_NOTSUPERADMIN: **%1** non è un superadmin
-COMMAND_PLAYER_INGROUP: Il giocatore **%1** è già in questo gruppo
-COMMAND_PLAYER_SUPERADMIN_ALREADY: **%1** è già un superadmin
-COMMAND_PLAYER_SUPERADMIN_ADD: Aggiunto **%1** a superadmin con successo
-COMMAND_PLAYER_SUPERADMIN_REMOVE: Rimosso **%1** da superadmins con successo
-COMMAND_PLAYER_ADD_GROUP: Aggiunto il gruppo **%1** a **%2**
-COMMAND_PLAYER_ADD_GROUP_TIMED: Aggiunto il gruppo ***%1** a **%2** per **%3**
-COMMAND_PERMISSION_ADD: Aggiungi il permesso **%1** a **%2**
-GUI_OVERVIEW_USERS_ACTION: Clicca per vedere tutti gli **Utenti**
-GUI_OVERVIEW_GROUPS_ACTION: Clicca per vedere tutti i **Gruppi**
-GUI_OVERVIEW_DONATIONS_ACTION: Clicca per mostrare le donazioni
-GUI_OVERVIEW_REDUCE_TITLE: Ridurre
-GUI_OVERVIEW_REDUCE_ACTION: Clicca per nascondere le funzionalità avanzate
-GUI_OVERVIEW_REDUCE_EXPLANATION: Questo nasconderà le impostazioni avanzate
-GUI_OVERVIEW_EXPAND_TITLE: Espandi
-GUI_OVERVIEW_EXPAND_ACTION: **Clicca** per mostrare di più
-GUI_OVERVIEW_EXPAND_EXPLANATION: Questo ti mostrerà le opzioni avanzate
-GUI_OVERVIEW_PERMISSIONLOG_ACTION: **Clicca** per aprire i Log dei Permessi
-GUI_OVERVIEW_PERMISSIONLOG_EXPLANATION: Qui puoi dare un'occhiata a tutti i permessi recentemente controllati
-GUI_OVERVIEW_SETTINGS_ACTION: **Clicca** per vedere le Impostazioni
-GUI_OVERVIEW_SETTINGS_EXPLANATION: Regola tutte le impostazioni del plugin
-GUI_GROUPBROWSER_TITLE_LIST: Lista
-GUI_GROUPBROWSER_TITLE_ALL: Mostrando tutti i gruppi
-GUI_GROUPBROWSER_TITLE_RANGE: Mostrando %1 / %2 Gruppi
-GUI_GROUPBROWSER_ADD_ACTION: Clicca per creare un gruppo
-GUI_GROUPBROWSER_REORDER_TITLE: Cambia L'ordine
-GUI_GROUPBROWSER_REORDER_ACTION: Clicca per modificare l'ordine
-GUI_GROUPBROWSER_LEFTCLICK_ACTION: **Tasto sinistro** per aprire
-GUI_GROUPBROWSER_Q_ACTION: **Premi Q** per visualizzare le Impostazioni di Archiviazione
-GUI_GROUPBROWSER_DEFAULT_GROUP_INDICATOR: Questo è un gruppo default
-GUI_GROUPBROWSER_SHOWALL_TITLE: Mostra Tutto
-GUI_GROUPBROWSER_SHOWALL_ACTION: Clicca per mostrare tutti i gruppi da tutti i Server & Mondi
-GUI_USERBROWSER_ACTION: **Clicca** per vedere
-GUI_USERBROWSER_DELETE_ACTION: **Premi Q** per **eliminare**
-GUI_USERBROWSER_SUPERADMIN_INDICATOR: Questo utente è un superadmin
-GUI_USERBROWSER_SHOWOFFLINE_TITLE: Mostra gli utenti offline
-GUI_USERBROWSER_HIDEOFFLINE_TITLE: Nascondi gli Utenti Offline
-GUI_USERBROWSER_SHOWOFFLINE_ACTION: Clicca per mostrare gli **utenti offline**
-GUI_USERBROWSER_HIDEOOFFLINE_ACTION: Clicca per nascondere gli **utenti offline**
-GUI_USERVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
-GUI_USERVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
-GUI_USERVIEW_VIEWGROUPS_ACTION: **Clicca** per vedere i gruppi
-GUI_USERVIEW_EDITPREFIXSUFFIX_TITLE: Modifica Prefisso e Suffisso
-GUI_USERVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
-GUI_USERVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
-GUI_GROUPVIEW_VIEWPERMISSIONS_TITLE: Vedi i permessi
-GUI_GROUPVIEW_VIEWPERMISSIONS_ACTION: **Clicca** per vedere i Permessi
-GUI_GROUPVIEW_CHANGEICON_TITLE: Cambia icona
-GUI_GROUPVIEW_CHANGEICON_ACTION: **Clicca** per cambiare
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_TITLE: Modifica prefisso e suffisso
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_LEFTCLICK: **Tasto sinistro** per modificare il prefisso
-GUI_GROUPVIEW_EDITPREFIXSUFFIX_RIGHTCLICK: **Tasto destro** per modificare il suffisso
-GUI_GROUPVIEW_RENAME_ACTION: **Clicca** per rinominare un gruppo
-GUI_GROUPVIEW_DELETE_TITLE: Elimina gruppo
-GUI_GROUPVIEW_DELETE_ACTION: **Clicca** per **eliminare** questo gruppo
-GUI_GROUPVIEW_DELETE_PERMANENT: Questa azione è **permanente**
-GUI_GROUPVIEW_DEFAULT_TITLE: Gruppo default
-GUI_GROUPVIEW_DEFAULT_ACTION: **Clicca** per rendere questo gruppo quello di **default**
-GUI_GROUPVIEW_DEFAULT_UNDEFAULT_ACTION: **Clicca** per **levare** questo gruppo da **default**
-GUI_GROUPVIEW_DEFAULT_EXPLANATION: Se abilitato, ogni nuovo giocatore riceverà questo gruppo alla prima entrata
-GUI_GROUPVIEW_INHERITANCE_TITLE: Eredità
-GUI_GROUPVIEW_INHERITANCE_ACTION: **Clicca** per modificare le ereditarietà
-GUI_PERMEDITOR_SELECTALL_TITLE: Seleziona Tutto
-GUI_PERMEDITOR_SELECTALL_ACTION: Clicca per **selezionare** tutti i permessi
-GUI_PERMEDITOR_INHERITED_NEGATE_ACTION: **Tasto sinistro** per **negare** il permesso
-GUI_PERMEDITOR_INHERITED_JUMP_ACTION: **Tasto destro** per andare a **%1**
-GUI_PERMEDITOR_INHERITED_EXPLANATION: Permesso aggiunto da **%1**
-GUI_PERMEDITOR_SELECTED_ACTION: **Clicca** per **deselezionare**
-GUI_PERMEDITOR_SELECTED_EXPLANATION: Hai **selezionato** questo permesso
-GUI_PERMEDITOR_NORMAL_LEFTCLICK: **Tasto sinistro** per modificare
-GUI_PERMEDITOR_NORMAL_RIGHTCLICK: **Tasto destro** per **selezionare**
-GUI_PERMEDITOR_NORMAL_PRESSQ: **Premi Q** per eliminare
-GUI_PERMEDITOR_ADDPERMISSION_TITLE: Aggiungi un permesso
-GUI_PERMEDITOR_PLUGIN_ACTION: Clicca per vedere i permessi di **%1**
-#GUI_PERMEDITOR_BUNGEEINDICATOR: This is a **BungeeCord** Permission
-#GUI_PERMEDITOR_AVAILABILITY_ALLSERVERS: Available on **all** Servers
-#GUI_PERMEDITOR_AVAILABILITY_INWORLD: in the World **%1**
-#GUI_PERMEDITOR_AVAILABILITY_APPLICABLEIN: Permission applicable in %1
-#GUI_PERMEDITOR_AVAILABILITY_ONLYTHISSERVER: Disponibile solo su questo server **this** Server
-#GUI_PERMEDITOR_AVAILABILITY_SPECIFICSERVER: Available on **%1** Server
-#GUI_PERMEDITOR_ADD_LEFTACTION: **Left Click** to add Permission
-#GUI_PERMEDITOR_ADD_RIGHTACTION: **Right Click** per aggiungere **Bungee Permission**
-#GUI_PERMEDITOR_ADD_TYPEIN: Scrivi un permesso
-#GUI_PERMEDITOR_EDIT_TITLE: Edit %1
-#GUI_PERMEDITOR_EDIT_ACTION: Click to edit **%1**
-#GUI_PERMVIEW_EDITPERM_TITLE: Modifica i permessi
-#GUI_PERMVIEW_EDITPERM_ACTION: Premi per modificare i permessi
-#GUI_PERMVIEW_EDITPERM_TYPEIN: Scrivi il nuovo permesso
-#GUI_PERMVIEW_COPY_ACTION: Click to select a **target**
-#GUI_PERMVIEW_NOMULTINAMEEDIT: you cannot rename multiple permissions at once
-#GUI_STORAGESETTINGS_TITLE: Impostazioni dello storage
-#GUI_STORAGESETTINGS_TYPEINWORLD: Scrivi il nome di un mondo
-#GUI_STORAGESETTINGS_NOWORLD_ACTION: Click to **restrict** this group to a specific World
-#GUI_STORAGESETTINGS_WORLD_ACTION: Premi per permettere questo gruppo in tutti i mondi
-#GUI_STORAGESETTINGS_NOSERVER_ACTION: Click to **restrict** this group to this Server
-#GUI_STORAGESETTINGS_SERVER_ACTION: Click to allow this group on all Servers
-#GUI_STORAGESETTINGS_RESTRICTED_TO: Restricted to **%1**
-#GUI_PASTESELECTION_PASTE_ACTION: Click to **paste** %1
-GUI_PERMEDITOR_MANUAL_TITLE: Digita in Chat
-GUI_PERMEDITOR_MANUAL_ACTION: **Clicca** per digitare il permesso
-GUI_PERMEDITOR_MANUAL_DIALOG_SUBTITLE: Digita un permesso
-GUI_INHERITVIEW_ADD_ACTION: Clicca per **aggiungere**
-GUI_INHERITVIEW_ADD_EXPLANATION: Aggiungerà tutti i permessi da **%1** a **%2**
-GUI_INHERITVIEW_REMOVE_ACTION: Clicca per **rimuovere**
-GUI_INHERITVIEW_REMOVE_EXPLANATION: Tutti i permessi di **%1** sono stati aggiunti a **%2**
-GUI_CHANGEORDER_TITLE: Modifica l'ordine
-GUI_CHANGEORDER_INCREASE: Tasto destro** per aumentare
-GUI_CHANGEORDER_DECREASE: Tasto sinistro** per decrementare
-GUI_PERMISSIONLOG_ACTION: Clicca per aggiungere questo permesso a un **gruppo **o  un **utente
-GUI_PERMISSIONLOG_RESULT: Risultato: %1
-GUI_SETTINGS_FORMAT_NAME: Formato Chat & Tab
-GUI_SETTINGS_MISC_NAME: Miscellanee
-EDITING_PREFIX_EDIT: **Modifica il Prefisso
-EDITING_PREFIX_TYPEIN: Digita il nuovo prefisso
-EDITING_PREFIX_TYPEINNONE: Non digitare **niente** per non avere il prefisso
-EDITING_SUFFIX_EDIT: **Modifica il Suffisso
-EDITING_SUFFIX_TYPEIN: Digita il nuovo Suffisso
-EDITING_SUFFIX_TYPEINNONE: Non digitare **niente** per non avere il suffisso
-CREATE_GROUP_TITLE: Crea un Gruppo
-CREATE_GROUP_SUBTITLE: Digita il nome del gruppo
-CREATE_GROUP_NOSPACES: Il nome del gruppo non può contere spazi
-CREATE_GROUP_NOCOLORS: Non puoi usare i colori nei nomi dei gruppi
-CREATE_GROUP_NAMETAKEN: Il nome di questo gruppo è giù usato
-RENAME_GROUP_TITLE: **Rinomina gruppo
-RENAME_GROUP_SUBTITLE: Digita un nuovo nome
-CONFIRM_DELETION_OF: Conferma l'eliminazione di %1
+#
+# Official Language File
+# To make your own language file, copy this file and edit the copy
+#
+# Changes made to this file will be reset!
+# Do not edit it!
+#
+
+addBungeePermissionDialog.subtitle: "Digita un Permesso via chat"
+addBungeePermissionDialog.title: "Aggiungi un Permesso Bungeecord"
+addPermissionDialog.subtitle: "Digita un Permesso via chat"
+addPermissionDialog.title: "Aggiungi Permesso"
+command.groupAddPermission: "Aggiunto il permesso **%permission%** al Gruppo **%group%**"
+command.groupAlreadyHasPermission: "Il Gruppo **%group%** possiede il permesso **%permission%**"
+command.groupRemovePermission.successful: "Rimosso il permesso **%permission%** da **%target%**"
+command.groupRemovePermission.successfulMultiple: "Rimosse **count** copie del permesso **%permission%** da **%target%**"
+command.groupRemovePermission.unsuccessful: "Impossibile trovare il permesso **%permission%** per **target**"
+command.noValidGroup: "Impossibile trovare il Gruppo **%group%**"
+command.noValidUser: "Impossibile trovare l'Utente **%user%**"
+command.playerAddGroup: "Aggiunto il Gruppo **%group%** al giocatore **%player%**"
+command.playerAddGroupTimed: "Aggiunto il Gruppo **%group%** al giocatore **%player%** per **%time**"
+command.playerAddPermission: "Aggiunto il permesso **%permission%** al giocatore **%player%**"
+command.playerAddSuperAdmin: "Aggiunto correttamente il giocatore **%player%** come superadmin"
+command.playerAlreadyHasPermission: "Il giocatore **%player%** possiede il permesso **%permission%**"
+command.playerAlreadySuperAdmin: "**%player%** è già superadmin"
+command.playerClearedGroups: "Rimossi tutti i Gruppi da **%player%**"
+command.playerNotInGroup: "Il giocatore **%player%** non è nel Gruppo **%group%**"
+command.playerNotSuperAdmin: "**%player%** non è superadmin"
+command.playerRemoveGroup: "Il giocatore **%player%** non è nel Gruppo **%group%**"
+command.playerRemoveSuperAdmin: "Rimosso correttamente **%player%** dai superadmin"
+command.playerSetGroups: "Impostato il Gruppo **%groups%** per il giocatore **%player%**"
+command.playerSetPrefix.clear: "Cancellato il prefisso dell'utente **%user%**"
+command.playerSetPrefix.clearAll: "Cancellati con successo **%count% prefissi**"
+command.playerSetPrefix.set: "Impostato il prefisso dell'utente **%user%** in **%prefix%**"
+command.playerSetSuffix.clear: "Cancellato il suffisso dell'utente **%user%**"
+command.playerSetSuffix.clearAll: "Cancellati con successo **%count% suffissi**"
+command.playerSetSuffix.set: "Imposta il suffisso dell'utente **%user%** in **%suffix%**"
+command.transfer.sourcesEqual: "Da e In non dovrebbero essere uguali!"
+createGroupDialog.nameTaken: "Il nome di questo Gruppo è già in uso"
+createGroupDialog.noColors: "Il nome del Gruppo **non deve** contenere codici colore"
+createGroupDialog.noSpaces: "Il nome del Gruppo **non deve** contenere spazi"
+createGroupDialog.subTitle: "Inserisci il nome del Gruppo"
+createGroupDialog.title: "Crea Gruppo"
+formatDialog.actionBar: "Usa i placeholder nella chat"
+formatDialog.default: "Predefinito: **%format%**"
+formatDialog.placeholders.entry: "**>** %placeholder% **-** %description%"
+formatDialog.placeholders.other: "e **{Player}** o **{DisplayName}**"
+formatDialog.placeholders.title: "Predefinito:"
+formatDialog.subtitle: "Digita un nuovo formato"
+formatDialog.title: "Imposta Formato"
+formatPane.entry.changeAction: "**Click Sinistro** per cambiare formato"
+formatPane.entry.defaultAction: "**Premi Q** per reimpostare il formato **predefinito**"
+formatPane.entry.disableAction: "**Click Destro** per **disabilitarla**"
+formatPane.entry.format.disabled: "Funzione disabilitata"
+formatPane.entry.format.title: "Formato:"
+formatPane.name: "Chat e Formato della Tab"
+fullPermissionListView.addPermission.addAction: "**Click Sinistro** per aggiungere un Permesso via Chat"
+fullPermissionListView.addPermission.addBungeeAction: "**Click Destro** per aggiungere un **Permesso BungeeCord**"
+fullPermissionListView.addPermission.title: "Aggiungi Permesso"
+fullPermissionListView.title: "%holder% > Permessi Aggiunti"
+groupChangeIconView.title: "%group% > Cambia icona"
+groupDeleteView.title: "Conferma l'eliminazione del Gruppo %group%"
+groupListView.add.action: "Clicca per creare un Gruppo"
+groupListView.add.title: "Crea Gruppo"
+groupListView.defaultIndicator: "Questo è il Gruppo predefinito"
+groupListView.openAction: "**Click Sinistro** per aprire"
+groupListView.reorder.action: "Clicca per modificare l'ordine"
+groupListView.reorder.title: "Cambia l'ordine"
+groupListView.showAll.action: "Clicca per vedere tutti i Gruppi di tutti i server e mondi"
+groupListView.showAll.title: "Vedi tutti"
+groupListView.storageSettingsAction: "**Premi Q** to view Storage Settings"
+groupListView.titleAllGroups: "Groups > Mostrando %count% Gruppi"
+groupListview.attributes.prefix: "Prefisso: **%prefix%**"
+groupListview.attributes.server: "Server: **%server%**"
+groupListview.attributes.suffix: "Suffisso: **%suffix%**"
+groupListview.attributes.world: "Mondo: **%world%**"
+groupListview.inherits.entry: "- **gruppo**"
+groupListview.inherits.none: "- **none**"
+groupListview.inherits.title: "Eredità dei Gruppi:"
+groupListview.permissions.count: "**count** Permessi"
+groupRenameDialog.subtitle: "Scrivi un nuovo nome per il Gruppo **%group%**"
+groupRenameDialog.title: "Rinomina Gruppo"
+groupReorderView.entry.deselectAction: "Clicca per **deselezionare** questo Gruppo"
+groupReorderView.entry.grabAction: "Clicca per **prendere** questo Gruppo"
+groupReorderView.entry.swapAction: "Clicca per scambiare con **%group%**"
+groupReorderView.title: "Ordine dei Gruppi (High to Low)"
+groupStorageSettingsView.server.allServersAction: "Clicca per abilitare questo Gruppo in tutti i server"
+groupStorageSettingsView.server.attribute: "Server: **%server%**"
+groupStorageSettingsView.server.disabled: "Questa funzione è disponibile solo nei network"
+groupStorageSettingsView.server.specificServersAction: "Clicca per restringere il Gruppo solo per un server specifico"
+groupStorageSettingsView.server.title: "Server"
+groupStorageSettingsView.world.allWorldsAction: "Clicca per abilitare questo Gruppo in tutti i mondi"
+groupStorageSettingsView.world.attribute: "Mondo: **%world%**"
+groupStorageSettingsView.world.specificWorldAction: "Clicca per restringere il Gruppo solo in un certo mondo"
+groupStorageSettingsView.world.title: "Mondo"
+groupUserListView.entry.action: "Clicca per **rimuovere** Utente"
+groupUserListView.entry.explanation: "Questo Gruppo è stato aggiunto **permanentemente** per questo Utente"
+groupUserListView.entry.timeTitle: "Tempo rimanente alla rimozione:"
+groupUserListView.title: "%group% > Utenti"
+groupUserListView.wipe.action: "Clicca per **rimuovere** tutti gli Utenti da questo Gruppo"
+groupUserListView.wipe.title: "Cancella Utenti"
+groupView.changeIcon.action: "**Clicca** per cambiare"
+groupView.changeIcon.title: "Cambia icona"
+groupView.delete.action: "**Clicca** per **eliminare** questo Gruppo"
+groupView.delete.desc: "Questa azione è **permanente**"
+groupView.delete.title: "Elimina Gruppo"
+groupView.inheritance.action: "**Clicca** per modificare le Eredità"
+groupView.inheritance.listItem: "- **%group%**"
+groupView.inheritance.listNoneItem: "- **None**"
+groupView.inheritance.listTitle: "Gruppi di Eredità:"
+groupView.inheritance.title: "Eredità"
+groupView.prefixSuffix.prefixAction: "**Click Sinistro** per modificare il prefisso"
+groupView.prefixSuffix.prefixAttribute: "Prefisso: **%prefix%**"
+groupView.prefixSuffix.suffixAction: "**Click Destro** per modificare il suffisso"
+groupView.prefixSuffix.suffixAttribute: "Suffisso: **%suffix%**"
+groupView.prefixSuffix.title: "Prefisso e Suffisso"
+groupView.rename.action: "**Clicca** per rinominare il gruppo"
+groupView.rename.title: "Rinomina Gruppo"
+groupView.setDefault.assignOption.title: "Chi riceverà i Gruppi predefiniti?"
+groupView.setDefault.desc: "Questa potrebbe essere un'**azione distruttiva**, fai attenzione prima di cambiarla"
+groupView.setDefault.setAction: "**Clicca** per rendere questo gruppo quello **predefinito**"
+groupView.setDefault.title: "Gruppo Predefinito"
+groupView.setDefault.unsetAction: "**Clicca** per impostare questo gruppo come **non predefinito**"
+groupView.title: "Gruppi > %group%"
+groupView.users.action: "Clicca per mostrare gli **Utenti**"
+groupView.users.amountAttribute: "Quantità: **%count%**"
+groupView.users.title: "Utenti"
+groupView.viewPermissions.action: "**Clicca** per vedere i permessi"
+groupView.viewPermissions.listTitle: "Permessi:"
+groupView.viewPermissions.title: "Vedi Permessi"
+inheritedGroupListView.inheriting.action: "Clicca per **rimuovere**"
+inheritedGroupListView.inheriting.explanation: "Questo aggiungerà tutti i permessi da **%from%** a **%to%**"
+inheritedGroupListView.notInheriting.action: "Click to **add**"
+inheritedGroupListView.notInheriting.explanation: "Tutti i permessi da **%from%** saranno aggiunti a **%to%**"
+inheritedGroupListView.title: "%group% > Gruppi Ereditati"
+lists.all.noneLine: "- **None**"
+lists.permissions.inheritedNegativeLine: "- **-****%permission%** da **%group%**"
+lists.permissions.inheritedPositiveLine: "- **%permission%** da **%group%**"
+lists.permissions.negativeLine: "- **-****%permission%**"
+lists.permissions.positiveLine: "- **%permission%**"
+lists.permissions.serverNegativeLine: "- **-****%permission%** sul Server **%server%**"
+lists.permissions.serverPositiveLine: "- **%permission%** sul Server **%server%**"
+lists.permissions.serverWorldNegativeLine: "- **-****%permission%** sul Server **%server%** nel Mondo **%world%**"
+lists.permissions.serverWorldPositiveLine: "- **%permission%** ul Server **%server%** nel Mondo **%world%**"
+lists.permissions.worldNegativeLine: "- **-****%permission%** nel Mondo **%world%**"
+lists.permissions.worldPositiveLine: "- **%permission%** nel Mondo **%world%**"
+lists.rankUps.permanentLine: "%index%. **%group%**"
+lists.rankUps.temporaryLine: "%index%. **%group%** per **%time%**"
+migrationAssistant.kickMessage: "Perfavore rimuovi il plugin **%plugin%** dopo che il server si è fermato"
+migrationAssistant.loginMessage: "Il server si avvierà tra pochi minuti"
+migrationView.start.action: "Clicca per **convertire** i dati"
+migrationView.start.desc: "Se non vuoi convertire i dati, elimina il plugin %plugin%"
+migrationView.start.explanation: "I tuoi dati verranno sovrascritti."
+migrationView.start.title: "Importa Dati"
+migrationView.title: "Importa > %plugin%"
+miscPane.defaultGroupAssign.desc: "Questa potrebbe essere un'**azione distruttiva**, fai attenzione prima di confermare"
+miscPane.defaultGroupAssign.saveAction: "**Premi Q** per **salvare**"
+miscPane.defaultGroupAssign.title: "Assegnazione del Gruppo Predefinito"
+miscPane.defaultGroupAssign.toggleAction: "Clicca per **abilitarla**"
+miscPane.defaultPerms.desc: "I cambiamenti avranno effetto dopo una riconnessione"
+miscPane.defaultPerms.disableAction: "Clicca per **disabilitare** la funzione Permessi Predefiniti"
+miscPane.defaultPerms.enableAction: "Clicca per **abilitare** la funzione Permessi Predefiniti"
+miscPane.defaultPerms.explanation: "É raccomandato di tenere quest'impostazione **dissattivata** per evitare effetti indesiderati e mantenere il pieno controllo"
+miscPane.defaultPerms.state: "Stato: **%status%**"
+miscPane.defaultPerms.title: "Permessi Predefiniti"
+miscPane.name: "Vario"
+miscPane.nameTags.desc: "Mostra **Prefisso**/**Suffisso** nella Name Tag sopra al giocatore"
+miscPane.nameTags.disableAction: "Clicca per **disabilitare** questa funzione"
+miscPane.nameTags.disabled: "É richiesto il Plugin **NameTagEdit** per questa funzione"
+miscPane.nameTags.disabledIndicator: "Le Name Tag al momento **non sono mostrate**"
+miscPane.nameTags.enableAction: "Clicca per **abilitare** questa funzione"
+miscPane.nameTags.enabledIndicator: "Le Name Tag saranno **mostrate** sopra le teste dei giocatori"
+miscPane.nameTags.title: "Name Tag"
+mysqlEnabledRequirement.message: "Comando non disponibile se MySQL non è configurato"
+overview.groups.action: "Clicca per vedere tutti i **Gruppi**"
+overview.groups.desc: "%count% Gruppi creati fino ad ora"
+overview.groups.scrollingEntry: "- **%prefix%** %group% **%suffix%**"
+overview.groups.title: "Gruppi"
+overview.permissionLog.action: "**Clicca** per aprire il log dei Permessi"
+overview.permissionLog.desc: "Qui puoi dare un'occhiata a tutti i recenti controlli dei Permessi"
+overview.permissionLog.title: "Log dei Permessi"
+overview.settings.action: "**Clicca** per mostrare le impostazioni"
+overview.settings.desc: "Mostra le impostazioni del plugin"
+overview.settings.expand.action: "**Clicca** per mostrare le funzioni avanzate"
+overview.settings.expand.desc: "Questo ti mostrerà le impostazioni avanzate"
+overview.settings.expand.title: "Espandi"
+overview.settings.reduce.action: "**Clicca** per nascondere le funzioni avanzate"
+overview.settings.reduce.desc: "Questo nasconderò le impostazioni avanzate"
+overview.settings.reduce.title: "Riduci"
+overview.settings.title: "Impostazioni"
+overview.users.action: "Clicca per vedere tutti gli **Utenti**"
+overview.users.desc: "%count% Giocatori registrati fino ad ora"
+overview.users.scrollingEntry: "- **%prefix%** %user%"
+overview.users.title: "Utenti"
+permissionEditorMainView.addPermission.addAction: "**Click Sinistro** per aggiungere un Permesso via Chat"
+permissionEditorMainView.addPermission.addBungeeAction: "**Click Destro** per aggiungere un **Permesso BungeeCord**"
+permissionEditorMainView.addPermission.title: "Aggiungi Permesso"
+permissionEditorMainView.allPermissions.action: "Clicca per mostrare tutti i permessi aggiunti"
+permissionEditorMainView.allPermissions.title: "Tutti i permessi"
+permissionEditorMainView.entry.action: "Clicca per mostrare i Permessi"
+permissionEditorMainView.entry.footer: "Trovati **%count% Permessi** per questo plugin nel Database dei Permessi"
+permissionEditorMainView.entry.permissionsTitle: "Permesso Aggiunto"
+permissionEditorMainView.next.action: "Clicca per raggiungere la pagina successiva"
+permissionEditorMainView.next.title: "Avanti"
+permissionEditorMainView.previous.action: "Clicca per raggiungere la pagina antecedente"
+permissionEditorMainView.previous.title: "Indietro"
+permissionEditorMainView.search.action: "Clicca per cercare un permesso"
+permissionEditorMainView.search.title: "Cerca un Permesso"
+permissionEditorMainView.title: "%holder% > Permessi"
+permissionInfo.commands.entry: "- **/%command%**"
+permissionInfo.commands.title: "Comandi:"
+permissionInfo.description.title: "Descrizione:"
+permissionListView.action: "Clicca per vedere tutte le copie del Permesso"
+permissionListView.inherited.negateAction: "**Click Destro** per **Quick-Negate** questo permesso"
+permissionListView.inherited.settingsTitle: "Impostazioni:"
+permissionListView.inherited.sourceDesc: "Questo permesso è originato dal gruppo **group%**"
+permissionListView.inherited.viewAction: "**Click Sinistro** per vedere questo Permesso"
+permissionListView.lore.allServersAttribute: "**•** Permesso disponibile su tutti i Server"
+permissionListView.lore.allWorldsAttribute: "**•** Permesso applicato in tutti i Mondi"
+permissionListView.lore.specificServerAttribute: "**•** Si applica soltanto al Server '**%server%**'"
+permissionListView.lore.specificWorldAttribute: "**•** Esclusivamente nel Mondo '**%world%**'"
+permissionListView.lore.temporaryAttribute: "**•** Scadrà in **%time%**"
+permissionListView.notAdded.action: "Clicca per **Aggiungere Rapidamente** il permesso"
+permissionListView.placeholders.entry: "- **[%placeholder%]** è un placeholder"
+permissionListView.placeholders.title: "Perfavore nota questo"
+permissionListView.single.deleteAction: "**Click Destro** per **annullare**"
+permissionListView.single.editAction: "**Click Sinistro** per modificare questo Permesso"
+permissionListView.single.settingsTitle: "Impostazioni:"
+permissionListView.title: "%permission% (Vedi sotto)"
+permissionLogAddPermission.entry.action: "Click to **add** permission"
+permissionLogAddPermission.title: "Permesso > %permission%"
+permissionLogViewer.item.action: "Clicca per aggiungere questo permesso al **gruppo** o all'**utente**"
+permissionLogViewer.item.failedAttribute: "Il Giocatore **non** ha qesto Permesso"
+permissionLogViewer.item.passedAttribute: "Il Giocatore **ha** questo Permesso"
+permissionLogViewer.item.sourceAttribute: "Consentito da **%source%**"
+permissionLogViewer.item.timeAttribute: "Controllato **%duration%** fa"
+permissionLogViewer.title: "Panoramica > Log dei Permessi"
+permissionView.delete.action: "Clicca per eliminare questa copia"
+permissionView.delete.title: "Elimina"
+permissionView.entry.permanentDesc: "Questo permesso è **permanente** e non può scadere"
+permissionView.entry.selectAction: "Clicca per **selezionare** questa copia"
+permissionView.entry.selectedIndicator: "Questa copia è attualmente **selezionata**"
+permissionView.entry.serverAttribute: "Server: **%server%**"
+permissionView.entry.temporaryDesc: "Scadenza in **%time%**"
+permissionView.entry.worldAttribute: "Mondo: **%world%**"
+permissionView.inherited.action: "Clicca per passare al Gruppo"
+permissionView.inherited.desc: "Questo permesso è ereditato dal gruppo **%group%** e può essere modificato soltanto passando a quel gruppo"
+permissionView.inherited.title: "Permesso Ereditato"
+permissionView.newCopy.action: "Clicca per creare una nuova copia di questo permesso"
+permissionView.newCopy.title: "Crea nuova Copia"
+permissionView.polarity.negativeAction: "Clicca per rendere questo permesso **negativo**"
+permissionView.polarity.negativeAttribute: "Questo permesso è attualmente **negato**"
+permissionView.polarity.positiveAction: "Clicca per rendere questo un Permesso **regolare**"
+permissionView.polarity.positiveAttribute: "Questo è un normale Permesso **positivo**"
+permissionView.polarity.title: "Polarità"
+permissionView.server.allServersAction: "Clicca per **abilitare** il permesso su titti i Server"
+permissionView.server.allServersDesc: "Permesso disponibile in tutti i Server"
+permissionView.server.specificServerAction: "Clicca per **restringere** il permesso in un certo Server"
+permissionView.server.specificServersDesc: "Permesso disponibile soltanto nel Server **%server%**"
+permissionView.server.title: "Server"
+permissionView.world.allWorldsAction: "Clicca per **abilitare** il permesso in tutti i Mondi"
+permissionView.world.allWorldsDesc: "Permesso disponibile in tutti i Mondi"
+permissionView.world.specificWorldAction: "Clicca per **restringere** il permesso solo in un certo Mondo"
+permissionView.world.specificWorldDesc: "Permesso abilitato soltanto nel mondo **%world%**"
+permissionView.world.title: "Mondo"
+placeholderFillDialog.subtitle: "Digita un valore per **[%placeholder%]**"
+pluginPermissionListView.allPermissions.addAction: "**Left Click** to **add** all Permissions"
+pluginPermissionListView.allPermissions.removeAction: "**Click Destro** per **rimuovere** tutti i Permessi"
+pluginPermissionListView.allPermissions.title: "Tutti i Permessi"
+pluginPermissionListView.title: "%plugin% > Permessi"
+prefixDialog.actionBar: "Digita **none** per rimuovere il prefisso"
+prefixDialog.subtitle: "Digita un nuovo prefisso per **%holder%**"
+prefixDialog.title: "Modifica Prefisso"
+searchPermissionDialog.subtitle: "Digita un **Termine di Ricerca** nella Chat per cercarlo"
+searchPermissionDialog.title: "Cerca per Permesso"
+serverPickerView.entry.action: "Clicca per selezionare"
+serverPickerView.entry.addressAttribute: "Indirizzo: **%ip%**:**%port%**"
+serverPickerView.entry.currentIndicator: "Ti trovi in questo server"
+serverPickerView.entry.onlinePlayers.entry: "- **%player%**"
+serverPickerView.entry.onlinePlayers.title: "Giocatori Online:"
+suffixDialog.actionBar: "Digita **none** per rimuovere il suffisso"
+suffixDialog.subtitle: "Digita un nuovo prefisso per **%holder%**"
+suffixDialog.title: "Modifica Suffisso"
+transferAssistant.kickMessage: "UltraPermissions comincierà a convertire i dati. Al termine il server si arresterà"
+transferAssistant.loginMessage: "UltraPermissions è ora in fase di trasferimento. Aspetta fino a quando il server si arresterà."
+userGroupAddView.entry.action: "Clicca per **aggiungerlo** a **%user%**"
+userGroupAddView.title: "%user% > Aggiungi Gruppo"
+userGroupListView.add.action: "Clicca per aggiungere il gruppo"
+userGroupListView.add.title: "Aggiungi"
+userGroupListView.entry.action: "Clicca per **rimuovere** il gruppo"
+userGroupListView.entry.timeTitle: "Tempo alla rimozione:"
+userGroupListView.title: "%user% > Gruppi"
+userListView.onlineFilter.disableAction: "Clicca per **mostrare** gli Utenti Offline"
+userListView.onlineFilter.enableAction: "Clicca per **nascondere** gli Utenti Offline"
+userListView.onlineFilter.title: "Visibilità"
+userListView.rankUpList.title: "Gruppi:"
+userListView.search.action: "Clicca per digitare un nome"
+userListView.search.title: "Cerca Utente"
+userListView.title: "Panoramica > Utenti"
+userListView.user.action: "**Clicca** per mostrare"
+userListView.user.deleteAction: "**Premi Q** per **eliminare** l'utente"
+userListView.user.noHeadDesc: "La testa verrà mostrata dopo la prossima riconnessione"
+userListView.user.prefixAttribute: "Prefisso: **%prefix%**"
+userListView.user.suffixAttribute: "Suffisso: **%suffix%**"
+userListView.user.superAdminIndicator: "Questo utente è un superadmin"
+userView.groups.action: "**Clicca** per mostrare i Gruppi"
+userView.groups.list.title: "Gruppi:"
+userView.groups.title: "Gruppi"
+userView.permissions.action: "**Clicca** per mostrare i Permessi"
+userView.permissions.list.title: "Permessi:"
+userView.permissions.title: "Mostra Permessi"
+userView.prefixSuffix.prefixAction: "**Click Sinistro** per modificare il prefisso"
+userView.prefixSuffix.prefixAttribute: "Prefisso: **%prefix%**"
+userView.prefixSuffix.suffixAction: "**Click Destro** per modificare il suffisso"
+userView.prefixSuffix.suffixAttribute: "Suffisso: **%suffix%**"
+userView.prefixSuffix.title: "Prefisso e Suffisso"
+userView.title: "Utente > %user%"
+worldPickerView.entry.action: "Clicca per **selezionare** il Mondo"
